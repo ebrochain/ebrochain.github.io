@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon.ico">
+<link rel="icon" type="image/png" href="./assets/img/favicon.ico">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<title>Docs for ebrochain</title>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'/>
+    
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,700" rel="stylesheet">
+    
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+<!-- Main CSS -->
+<link href="./assets/css/main.css" rel="stylesheet"/>
+    
+<!-- Docs CSS -->
+<link href="./assets/css/vendor/bootstrap-toc.css" rel="stylesheet"/>
+<link href="./assets/css/vendor/prism.css" rel="stylesheet"/>
+<style>
+
+
+.tab1 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    margin-bottom: 1rem;
+    overflow: auto;
+    width: 100%;
+}
+</style>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?27b7ca14c067f561753f8d17cdf37697";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+    
+</head>
+    
+<body style="color:#34495e">  
+    
+    
+<!----------------------------------------------------------------------
+End fixed sidebar
+------------------------------------------------------------------------>
+
+<nav id="toc" class="fixedsidebar d-none d-lg-block">   
+    <h5 class="mt-4 mb-4 pt-1"><a class="text-dark navbar-brand" href="./index.html"><img src="./assets/img/logo.svg" loading="lazy" width="" height="32" alt=""><strong>ebrochain</strong> </a></h5>
+    <a target="_blank" href="https://ebrochain.com" class="btn btn-secondary mb-4 btn-sm btn-round"><i class="fa fa-book-reader mr-1"></i> Docs</a>
+</nav>
+    
+<!----------------------------------------------------------------------
+End fixed sidebar
+------------------------------------------------------------------------> 
+    
+       
+<main class="content-withfixedsidebar">
+    
+    
+<!----------------------------------------------------------------------
+NAVBAR (remove topnav if you don't want changed nav background on scroll)
+------------------------------------------------------------------------>
+<nav class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+<div class="container">
+	<a class="navbar-brand d-lg-none" href="./index.html"><i class="fas fa-anchor mr-2"></i><strong>ebrochain</strong></a>
+	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="navbar-collapse collapse" id="navbarColor02">
+		<ul class="navbar-nav mr-auto d-flex align-items-center">
+			<li class="nav-item">
+			<a class="nav-link" href="./index.html">&larr; Back to index</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+<!-- End Navbar -->
+    
+<!-------------------------------------
+HEADER
+--------------------------------------->
+<div class="jumbotron jumbotron-fluid mb-3 pb-0 bg-white position-relative">
+	<div class="container h-100 tofront">
+		<div class="row align-items-center justify-content-center text-center">
+			<div class="col-md-10">
+				<h1 class="display-3 text-dark">ebrochain</h1>
+			</div>
+		</div>
+	</div>
+</div>
+<!--- END HEADER -->
+
+<!-- DOCS CONTENT -->
+<div class="container pt-5 pb-5 mb-5">
+	<div class="row justify-content-center">
+      
+<div class="col-lg-11">
+<div id="docsarea" class="font-weight-normal">
+
+<h1>Home</h1>
+<h2>What is EBROChain</h2>
+<p>A cryptocurrency system that supports smart contracts without the scalability and privacy limitations of earlier systems like Ethereum. EBRO Chain, like Ethereum, allows parties to create smart contracts using code to specify the behavior of the virtual machine (VM) that executes the contract's function.EBRO Chain strives to solve scalability and usability issues, without compromising decentralization, and leverages the existing developer community and ecosystem. It is an off-chain/external scaling solution for existing platforms to provide scalability and superior user experience for DApps/user features</p>
+<blockquote><p>EBRO Chain continues to use the POW consensus mechanism, bringing EVM-compatible programmability and native cross-chain communication.</p></blockquote>
+
+<h2>How Does EBRO chain Work? What is the Architecture and consensus used?</h2>
+<p>EBRO Chain relies on a system with Proof of Work  (PoW) consensus that can support short block time and lower fees.</p>
+
+<h2>What is Proof of Work ？</h2>
+<p>Proof of Work (PoW) is a consensus algorithm used in blockchain networks. It requires participants, called miners, to solve a complex computational puzzle in order to propose the next block in the chain. The main idea behind PoW is that it's computationally hard (requires CPU time and energy) to create a block, but it's easy for others to verify that the solution to the puzzle is correct once a solution is proposed.
+
+    The first blockchain to use PoW was Bitcoin, and it remains the consensus algorithm for many cryptocurrencies today. PoW is considered secure against cheating because altering past transactions would require re-doing the work of the altered block and all blocks after it, which is extremely unlikely due to the high computational costs involved.
+    
+    However, PoW has been criticized for its high energy consumption and potential for centralization, as those with more computational resources (more powerful hardware) have a higher chance of mining the next block. As a result, other types of consensus algorithms, such as Proof of Stake (PoS), have been proposed as alternatives.</p>
+<h2>What are the benefits for developers to build on EBRO chain?</h2>
+<ul>
+    <li><p>EVM-compatible: EBRO Chain supports all the existing Ethereum tooling Fast block time, cheaper cost</p></li>
+    <li><p>Native cross-chain trasfer & communication: ebroswap in development</p></li>
+</ul>
+<h2>What Makes EBRO chain different?</h2>
+<ul>
+<li><p>Proof of Work (PoW) Consensus</p></li>
+<li><p>Native Cross-Chain Communication using Bridge</p></li>
+<li><p>Expand the use cases of EBRO coin by patnering with big projects on other chains</p></li>
+</ul>
+<h2>EBRO Chain is EVM-compatible. what does that mean?</h2>
+<p>EVM means Ethereum Virtual Machine. Any smart-contract written to run in EVM can be easily ported to EBRO Chain.</p>
+
+<h1>EBRO MAINNET</h1>
+<h1>Table of Comparison</h1>
+<h2>Consensus</h2>
+<h2>Consensus of EBRO Chain</h2>
+<h3>Abstract</h3>
+<p>We target to design the consensus engine of EBRO (EBRO Chain) to achieve the following goals:</p>
+<ol>
+<li><p>Wait a few blocks to confirm (should be less than Ethereum 1.0), better no fork in most cases.</p></li>
+<li><p>Blocking time should be shorter than Ethereum 1.0, i.e. 3 seconds on EBRO Chain</p></li>
+<li><p>No inflation, the block reward is transaction gas fees.</p></li>
+<li><p>As much compatiblity with EVM DApps as Ethereum.</p></li>
+<li><p>With staking and governance as powerful as Cosmos SDK.</p></li>
+</ol>
+<p>pBFT (Practical Byzantine Fault Tolerance) consensus algorithm allows a distributed system to reach a consensus even when a small amount of nodes demonstrate malicious behavior (such as falsifying information). During information transmission, PBFT uses cryptographic algorithms such as signature, signature verification, and hash to ensure that everything stays irrevocable, unforgeable, and indisputable. It also optimizes the BFT algorithm, reducing its complexity from exponential to polynomial. In a distributed system that constitutes 3f+1 nodes (f represents the number of byzantine nodes), a consensus can be reached as long as no less than 2f+1 non-byzantine nodes are functioning normally.</p>
+
+<h1>Basic Knowledge</h1>
+<h2>Blockchain</h2>
+<p>A blockchain is a public database that is updated and shared across many computers in a network.
+
+    "Block" refers to data and state being stored in consecutive groups known as "blocks". If you send EBRO to someone else, the transaction data needs to be added to a block to be successful.
+    
+    "Chain" refers to the fact that each block cryptographically references its parent. In other words, blocks get chained together. The data in a block cannot change without changing all subsequent blocks, which would require the consensus of the entire network.
+    
+    Every computer in the network must agree upon each new block and the chain as a whole. These computers are known as "nodes". Nodes ensure everyone interacting with the blockchain has the same data. To accomplish this distributed agreement, blockchains need a consensus mechanism.
+    
+    The Ethereum Virtual Machine is the global virtual computer whose state every participant on the Ethereum network stores and agrees on. Any participant can request the execution of arbitrary code on the EVM; code execution changes the state of the EVM</p>
+
+<h2>EVM Explained</h2>
+<h3>Ethereum Virtual Machine (EVM)</h3>
+<p>The Ethereum Virtual Machine is the global virtual computer whose state every participant on the Ethereum network stores and agrees on. Any participant can request the execution of arbitrary code on the EVM; code execution changes the state of the EVM</p>
+<h2>Nodes</h2>
+<p>The real-life machines which are storing the EVM state. Nodes communicate with each other to propagate information about the EVM state and new state changes. Any user can also request the execution of code by broadcasting a code execution request from a node. The Ethereum network itself is the aggregate of all Ethereum nodes and their communications.</p>
+<h2>Smart Contract</h2>
+<p>A Smart Contract is a computer program that automatically executes contract terms. These programs automatically carry out predefined operations when predetermined conditions are met. They play a vital role in blockchain technology, especially on the EBRO platform.
+    The basic idea of a smart contract is to use software and mathematical algorithms to execute and enforce contract terms, without relying on third-party intermediaries such as courts or other legal services. These contracts can be used in a variety of scenarios, such as financial transactions, insurance policies, logistics tracking, and more.
+    For example, in a financial scenario, smart contracts can be used to create automatically executed financial instruments, such as bonds or derivatives. When the interest on a bond matures, the smart contract automatically transfers the interest to the bondholder's account. Or, if a good is lost during the logistics process, the smart contract can automatically execute the terms of an insurance policy, instantly paying compensation.
+</p>
+
+<h1>Whitepaper</h1>
+<h2>Whitepaper 1.0 </h2>
+<h2>Genesis File</h2>
+<p>This document explains how EBRO chain is Structured</p>
+<h2>What is a Genesis File</h2>
+<p>A Genesis file in the context of blockchain technology, particularly in Ethereum, is the initial block, or the "Block 0", in the blockchain. It is the first block to be mined, thus forming the foundation of any blockchain-based platform or system.
+    The genesis file is a JSON-formatted (JavaScript Object Notation) file that sets the initial parameters of the blockchain, such as the difficulty level for mining, the gas limit per block, the initial reward for mining, and more.
+</p>
+
+<h2>Explanantion</h2>
+<ul>
+<li>
+    <p>Chain ID</p>
+    <p>The chain ID is a property of the chain managed by the node. It is used for replay protection of transactions</p>
+    <p>EBRO CHAIN ID:</p>
+</li>
+<li>
+    <p>period</p>
+    <p>Minimum difference between two consecutive block’s timestamps. Suggested 3s for the testnet .</p>
+</li>
+<li>
+    <p>epoch</p>
+    <p>Number of blocks after which to checkpoint and reset the pending votes. Suggested 100 for testnet .</p>
+</li>
+<li>
+    <p>nonce</p>
+    <p>The nonce is the cryptographically secure mining proof-of-work that proves beyond reasonable doubt that a particular amount of computation has been expended in the determination of this token value. EBRO Chain is Set to 0X0.</p>
+</li>
+<li>
+<p>timestamp</p>
+<p>Must be at least the parent timestamp + BLOCK_PERIOD.</p>
+</li>
+
+<li>
+    <p>extraData</p>
+    <p><ul>
+        <li><p>EXTRA_VANITY: Fixed number of extra-data prefix bytes reserved for signer vanity. Suggested 32 bytes</p></li>
+        <li><p>Signer Info: validator address</p></li>
+        <li><p>EXTRA_SEAL bytes (fixed) is the signer’s signature sealing the header.</p></li>
+        
+
+    </ul></p>
+</li>
+<li><p>gasLimit</p>
+    <p>A scalar value equal to the current chain-wide limit of Gas expenditure per block. High in our case to avoid being limited by this threshold during tests. Note: this does not indicate that we should not pay attention to the Gas consumption of our Contracts.</p>
+</li>
+<li>
+<p>difficulty</p>
+<p>A scalar value corresponding to the difficulty level applied during the nonce discovering of this block. Suggested 0x1 for testnet</p>
+</li>
+<li>
+    <p>mixHash</p>
+    <p>Reserved for fork protection logic, similar to the extra-data during the DAO. Must be filled with zeroes during normal operation.</p>
+</li>
+<li>
+    <p>coinbase</p>
+    <p>System controled address for collecting block rewards</p>
+</li>
+<li><p>number</p>
+<p>Block height in the chain, where the height of the genesis is block 0.</p>
+</li>
+<li><p>parentHash</p>
+    <p>The Keccak 256-bit hash of the entire parent block’s header (including its nonce and mixhash). Pointer to the parent block, thus effectively building the chain of blocks. In the case of the Genesis block, and only in this case, it's 0.</p>
+    </li>
+
+</ul>
+
+<h2>Account and Address</h2>
+<p>This default wallet would use a similar way to generate keys as Ethereum, i.e. use 256 bits entropy to generate a 24-word mnemonic based on BIP39, and then use the mnemonic and an empty passphrase to generate a seed; finally use the seed to generate a master key, and derive the private key using BIP32/BIP44 with HD prefix as "44'/60'/", which is the same as Ethereum's derivation path.</p>
+<h2><span style="color:#34495e">Consensus</span></h2>
+<h3><span style="color:#34495e">Infrastructure Components</span></h3>
+<p><strong>EBRO Chain.</strong> It is responsible for holding the staking function to determine validators of EBRO through independent election, and the election workflow are performed via staking procedure.</p>
+
+<h2>Consensus Protocol</h2>
+<p>The implement of the consensus engine is named as pBFT implementations of PoSA consensus. This doc will focus more on the difference and ignore the common details.</p>
+<p>Before introducing, we would like to clarify some terms:</p>
+<ol>
+    <li>Epoch block. Consensus engine will update validatorSet from NCValidatorSet contract periodly. For now the period is 200 blocks, a block is called epoch block if the height of it is times of 200.</li>
+    <li>Snapshot. Snapshot is an assistant object that help to store the validators and recent signers of blocks.</li>
+</ol>
+
+<h2>key Features</h2>
+<h3>How to Produce a new block</h3>
+<ul>
+    <li>
+        <p>Step 1: Prepare</p>
+        <p>A validator node prepares the block header of next block.</p>
+        <p><ul>
+            <li>Load snapshot from cache or database.</li>
+            <li>Every epoch block, will store validators set message in extraData field of block header to facilitate the implement of light client.</li>
+            <li>The coinbase is the address of the validator</li>
+        </ul></p>
+    </li>
+    <li>
+        <p>Step2: FinalizeAndAssemble</p>
+        <p><ul>
+            <li>If the validator is not the in turn validator, will call liveness slash contract to slash the expected validator and generate a slashing transaction.</li>
+            <li>If there is gas-fee in the block, will distribute 1/16 to system reward contract, the rest go to validator contract.</li>
+        </ul></p>
+    </li>
+    <li>
+        <p>Step3: Seal The final step before a validator broadcast the new block.</p>
+        <p><ul>
+            <li>Sign all things in block header and append the signature to extraData.</li>
+            <li>If it is out of turn for validators to sign blocks, an honest validator it will wait for a random reasonable time.</li>
+        </ul></p>
+    </li>
+</ul>
+
+<h3>How to Validate/Replay a block</h3>
+<ul>
+    <li><p>Step 1: VerifyHeader</p>
+        <P>Verify the block header when receiving a new block.</P>
+        <p><ul>
+            <li>Verify the signature of the coinbase is in extraData of the blockheader</li>
+            <li>Compare the block time of the blockHeader and the expected block time that the signer suppose to use, will deny a blockerHeader that is smaller than expected. It helps to prevent a selfish validator from rushing to seal a block.</li>
+            <li>The coinbase should be the signer and the difficulty should be expected value.</li>
+        </ul></p>
+    </li>
+    <li><p>Step2: Finalize</p>
+    <p><ul>
+        <li>If it is an epoch block, a validator node will fetch validatorSet from NCValidatorSet and compare it with extra_data.</li>
+        <li>If the block is not generated by inturn validatorvalidaror, will call slash contract. if there is gas-fee in the block, will distribute 1/16 to system reward contract, the rest go to validator contract.</li>
+        <li>The transaction generated by the consensus engine must be the same as the tx in block.</li>
+    </ul></p>
+    </li>
+</ul>
+<h2>Key Management</h2>
+<p>This article is a guide about key management strategy on client side of your Decentralised Application on EBRO Chain</p>
+<h3>Setup Web3</h3>
+<p><code>web3.js</code> is a javascript library that allows our client-side application to talk to the blockchain. We configure web3 to communicate via Metamask.</p>
+<p>web3.js doc is <a href="https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js">here</a></p>
+
+<h1>Testnet</h1>
+<p>Hello Frens We are Happy to announce That Our Testnet is Live.</p>
+<h2>How to access Our Testnet</h2>
+<h3>Chainlist</h3>
+<p>Our Testnet can be added via Chainlist Testnets <a href="https://chainlist.org/">Here</a></p>
+<h3>Metamask</h3>
+<p>Our Testnet can also be added manually by adding the following values</p>
+<table>
+    <thead>
+    <tr>
+    <th>Network Details</th>
+    <th>Value</th>
+    </tr>
+    </thead>
+    <tbody><tr>
+    <td>Name</td>
+    <td>EBROchain Testnet</td>
+    </tr>
+    <tr>
+    <td>Symbol</td>
+    <td>EBRO</td>
+    </tr>
+    <tr>
+    <td>RPC</td>
+    <td><a href="https://testnet.EBROchain.com" target="_blank" rel="noopener">https://testnet.EBROchain.com</a></td>
+    </tr>
+    <tr>
+    <td>Chain ID</td>
+    <td>420666</td>
+    </tr>
+    <tr>
+    <td>Explorer</td>
+    <td><a href="https://testnet-explorer.EBROchain.com/" target="_blank" rel="noopener">https://testnet-explorer.EBROchain.com/</a></td>
+    </tr>
+    </tbody></table>
+
+<h3>Faucet</h3>
+<p>You can access Free Testnet EBROs via our <a href="faucet.ebrochain.com">faucet</a></p>
+
+<h1>For Developers</h1>
+<h2>Contract Deployment</h2>
+<h2>Truffle</h2>
+<h3>Using Truffle</h3>
+<h3>Setting up the development environment</h3>
+<p>There are a few technical requirements before we start. Please install the following: Requirements:</p>
+<oL>
+    <li>Windows, Linux or Mac OS X</li>
+    <li><a href="https://nodejs.org/en">Node.js v8.9.4 LTS or Later</a></li>
+    <li><a href="https://git-scm.com/">Git</a></li>
+</oL>
+<h3>Recommendations for Windows</h3>
+<p>If you're running Truffle on Windows, you may encounter some naming conflicts that could prevent Truffle from executing properly. Please see the section on resolving naming conflicts for solutions.</p>
+<h3>Installing</h3>
+<p>Once we have those installed, we only need one command to install Truffle:</p>
+<blockquote><p><code>npm install -g truffle</code></p></blockquote>
+<p>To verify that Truffle is installed properly, type truffle version on a terminal. If you see an error, make sure that your npm modules are added to your path.</p>
+<h3>Create A Project</h3>
+<p>The first step is to create a Truffle project. We'll use the *DogeLoop as an example, which creates a token that can be transferred between accounts:</p>
+<ul>
+    <li>Create a new directory for your Truffle project</li>
+    <li><p>Intialize your project:</p>
+        <blockquote><p><code>truffle init</code></p></blockquote>
+    </li>
+
+</ul>
+<h3>Deploying to EBRO CHAIN</h3>
+
+<blockquote><p><code>Endpoint RPCS to be announced on a later Date</code></p></blockquote>
+
+<h1>ROADMAP</h1>
+<h2>Q3 2022</h2>
+<p>
+<table>
+    <thead>
+    <tr>
+    <th>Goal</th>
+    <th>Status</th>
+    </tr>
+    </thead>
+    <tbody><tr>
+    <td>Public Testnet</td>
+    <td>✔</td>
+    </tr>
+    <tr>
+    <td>Block Explorer for Testnet</td>
+    <td>✔</td>
+    </tr>
+    <tr>
+    <td>Market Tracker Listing</td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>CEX Listing</td>
+    <td></td>
+    </tr>
+    </tbody></table></p>
+<h2>Q4 2022</h2>
+<p><table>
+    <thead>
+    <tr>
+    <th>Goal</th>
+    <th>Status</th>
+    </tr>
+    </thead>
+    <tbody><tr>
+    <td>Mainnet Beta Development</td>
+    <td>✔</td>
+    </tr>
+    <tr>
+    <td>Block Explorer for Mainnet</td>
+    <td>✔</td>
+    </tr>
+    <tr>
+    <td>Marketing Campaign</td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>Open Partnership for Ecosystem</td>
+    <td></td>
+    </tr>
+    </tbody></table></p>
+<h2>Q1 2023</h2>
+<p><table>
+    <thead>
+    <tr>
+    <th>Goal</th>
+    <th>Status</th>
+    </tr>
+    </thead>
+    <tbody><tr>
+    <td>Ecosystem Development</td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>Launch of ebroswap</td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>Wrapped USDT &amp; USDC Support</td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>Onboard more Developers &amp; Partners</td>
+    <td></td>
+    </tr>
+    </tbody></table></p>
+<!-- ---------andy--  -->
+
+ 
+    
+</div><!-- End docs -->
+</div>
+</div>
+</div>
+<!-- End DOCS -->
+    
+
+<!--------------------------------------
+FOOTER
+--------------------------------------->
+<footer class="bg-light pb-5 pt-4">
+<div class="container">
+	<div class="row justify-content-center text-center">
+		<div class="col-md-12">			
+			<span class="d-block mt-3 text-muted">©
+			<script>document.write(new Date().getFullYear())</script>
+			 <a target="_blank" href="https://www.ebrochain.com/">ebrochain</a>  by ebrochain.com.
+            </span>
+		</div>
+	</div>
+</div>
+</footer>
+    
+    
+</main>
+<!--- end main -->
+    
+    
+<!--------------------------------------
+JAVASCRIPTS
+--------------------------------------->    
+<script src="./assets/js/vendor/jquery.min.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/popper.min.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
+<script src="./assets/js/functions.js" type="text/javascript"></script>
+    
+<!-- Docs -->
+<script src="./assets/js/vendor/prism.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/bootstrap-toc.js" type="text/javascript"></script>
+<script>
+    $(function() {
+      new ClipboardJS('.btn');
+      var navSelector = '#toc';
+      var $myNav = $(navSelector);
+      Toc.init({
+          $nav: $('#toc'),
+          $scope: $('#docsarea')
+        });
+      $('body').scrollspy({
+        target: navSelector
+      });        
+    });
+</script>
+
+    
+
+<!-- Tooltips -->
+<script> $(function () { $('[data-toggle="tooltip"]').tooltip() }) </script>
+    
+<!-- Popovers -->    
+<script> 
+$(function () {
+$('[data-toggle="popover"]').popover()
+})
+$('.popover-dismiss').popover({
+  trigger: 'focus'
+})
+</script>
+
+</body>
+</html>
